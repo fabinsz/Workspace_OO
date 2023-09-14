@@ -1,0 +1,66 @@
+ 
+ classe valorDePi:
+  -Pi = 3,14
+
+ classe princípios:
+  -base
+  -altura
+  -lado
+  -raio
+
+ classe posição:
+  -definir coordenada(x , y)
+
+ classe formaGeometrica:
+  -calcular área
+  -calcular perimetro
+  
+
+  classe quadrado(formaGeometrica , posição , princípios):
+   definir lado
+   
+   calcular área():
+    RETORNE lado * lado
+
+   calcular perímetro():
+    RETORNE 4 * lado
+
+
+   classe retângulo(formaGeometrica , posição , princípios):
+    definir base
+    definir altura
+    
+    calcular área():
+     RETORNE base * altura
+
+    calcular perímetro():
+     RETORNE 2 * (base + altura) 
+
+
+    classe triângulo(formaGeometrica , posição , princípios) 
+     definir base
+     definir altura
+
+     calcular área():
+      RETORNE (base * altura)/2 
+
+     calcular perímetro():
+      RETORNE base + 2 * ((base^2 + altura^2)^(1/2)) 
+
+
+    classe círculo(formaGeometrica , posição , princípios , valorDePi)
+     definir raio
+
+     calcular área():
+      RETORNE Pi * (raio)^2  
+
+     calcular perimetro():
+      RETORNE Pi * 2 * raio 
+
+FUNÇão Main():
+# exemplo de uso  #   
+
+f1 = NOVO quadrado(4.0)
+f2 = NOVO retângulo(4.0 , 6.0)
+f3 = NOVO triângulo(3.0 , 4.0)
+f4 = NOVO círculo(2.0)
