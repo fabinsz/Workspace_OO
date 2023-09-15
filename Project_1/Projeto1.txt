@@ -13,7 +13,7 @@
 
  classe formaGeometrica:
   -CalcularArea
-  -CalcularPerimetro():
+  -CalcularPerimetro
   
 
   classe quadrado(formaGeometrica , posição , princípios):
