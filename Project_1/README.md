@@ -1,4 +1,4 @@
-# Calculadora de Formas Geométricas
+# Projeto 1: Formas Geométricas
 
 Este projeto é uma calculadora de formas geométricas que oferece várias funcionalidades, como calcular a área, calcular o perímetro e definir a posição de diferentes formas geométricas. Ele utiliza as seguintes classes:
 
