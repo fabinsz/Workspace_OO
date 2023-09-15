@@ -1,6 +1,6 @@
 # Projeto 1: Formas Geométricas
 
-Este projeto é uma calculadora de formas geométricas que oferece várias funcionalidades, como calcular a área, calcular o perímetro e definir a posição de diferentes formas geométricas. Ele utiliza as seguintes classes:
+Este projeto é um universo de formas geométricas que oferece várias funcionalidades, como calcular a área, calcular o perímetro e definir a posição de diferentes formas geométricas. Ele utiliza as seguintes classes:
 
 - `valorDePi`: Uma classe para obter o valor de π (pi).
 - `princípios`: Uma classe que contém os princípios básicos das formas geométricas.
