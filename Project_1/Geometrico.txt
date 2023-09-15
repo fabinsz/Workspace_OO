@@ -1,0 +1,85 @@
+ 
+ classe valorDePi:
+  -Pi = 3,14
+
+ classe princípios:
+  -base
+  -altura
+  -lado
+  -raio
+
+ classe posição:
+  -definir coordenada(x , y)
+
+ classe formaGeometrica:
+  -CalcularArea
+  -CalcularPerimetro():
+  
+
+  classe quadrado(formaGeometrica , posição , princípios):
+   definir lado
+   
+   
+   CalcularArea():
+    RETORNE lado * lado
+
+   CalcularPerimetro():
+    RETORNE 4 * lado
+
+
+   classe retângulo(formaGeometrica , posição , princípios):
+    definir base
+    definir altura
+    
+   
+    CalcularArea():
+     RETORNE base * altura
+
+    CalcularPerimetro():
+     RETORNE 2 * (base + altura) 
+
+
+    classe triângulo(formaGeometrica , posição , princípios) 
+     definir base
+     definir altura
+
+     
+     CalcularArea():
+      RETORNE (base * altura)/2 
+
+     CalcularPerimetro():
+      RETORNE base + 2 * ((base^2 + altura^2)^(1/2)) 
+
+
+    classe círculo(formaGeometrica , posição , princípios , valorDePi)
+     definir raio
+
+     CalcularArea():
+      RETORNE Pi * (raio)^2  
+
+     CalcularPerimetro():
+      RETORNE Pi * 2 * raio 
+
+FUNÇÃO Main():
+# exemplo de uso  #   
+
+f1 = quadrado(4.0)
+f2 = retângulo(4.0 , 6.0)
+f3 = triângulo(3.0 , 4.0)
+f4 = círculo(2.0)
+
+     "Área do quadrado: " + f1.CalcularArea()
+     "Perímetro do quadrado: " + f1.CalcularPerimetro()
+     "posição do quadrado: " + f1.posição()
+
+     "Área do retângulo: " + f2.CalcularArea()
+     "Perímetro do retângulo: " + f2.CalcularPerimetro()
+     "posição do retângulo: " + f2.posição()
+
+     "Área do triângulo: " + f3.CalcularArea()
+     "Perímetro do triângulo: " + f3.CalcularPerimetro()
+     "posição do triângulo: " + f3.posição()
+
+     "Área do círculo: " + f4.CalcularArea()
+     "Perímetro do círculo: " + f4.CalcularPerimetro()
+     "posição do círculo: " + f4.posição()
